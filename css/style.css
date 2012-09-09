@@ -23,5 +23,9 @@ cream             e7e5d7
  body {
  	max-width: 960px;
  	font: 100%; /*16px*/
+ 	background-image: url("../images/cec_body_bg.jpg");
+ 	line-height: 1.5;
+	margin-left: auto;
+	margin-right: auto;	
 
  }
