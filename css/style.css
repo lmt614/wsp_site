@@ -1,3 +1,11 @@
+
+/*---------Color Swatch-------------
+dark blue         384861
+green             9ca974
+olive green       57612c
+cream             e7e5d7
+------------------------------------*/
+
 /* Minimalist Reset 3 CSSresetr.com */
 * {
 	vertical-align: baseline;
@@ -11,3 +19,9 @@
 	margin: 0;
 }
 /* End of Minimalist Reset 3 CSSresetr.com */
+
+ body {
+ 	max-width: 960px;
+ 	font: 100%; /*16px*/
+
+ }
