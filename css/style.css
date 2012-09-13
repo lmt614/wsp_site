@@ -200,25 +200,46 @@ article {
 	clear: both;
 }
 
-#contact_images ul {
-	list-style-type: none;
-	float: left;
-	margin: 17px 0 5px 55px;
-	overflow: hidden;
-	padding: 5px;
+#contact_images {
+	margin: 24px 0 0 40px;
+	font: 0.75em Georgia, Arial, sans-serif;
+	padding: 0;
 }
 
-#contact_images li {
+.church_office {
 	float: left;
-	margin-left: 19px;
-	display: block;
-	height: 127px;
-	width: 170px;
+
 }
 
-#contact_information {
+.church_office img {
+	margin: 0 0 0 15px;
+}
+
+.interem_pastor {
 	float: left;
-	
+	margin: 0 33px;	
+
+}
+
+.interem_pastor img {
+	margin: 0 0 0 14px;
+}
+
+.music_director {
+	float: left;
+}
+
+.music_director img {
+	margin: 0 0 0 12px;
+}
+
+.administrative_secretary {
+	float: left;
+	margin: 0 0 0 32px;
+}
+
+.administrative_secretary img {
+	margin: 0 0 0 10px;
 }
 
 .sidebar {
