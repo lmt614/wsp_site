@@ -31,7 +31,7 @@ cream             e7e5d7
  }
 
  #wrapper {
- 	width: 092.083333333333%; /*884px/960px*/
+ 	max-width: 092.083333333333%; /*884px/960px*/
  	margin: 0 auto;
  	background: #9ca974;
  }
@@ -53,54 +53,56 @@ cream             e7e5d7
 
  header img {
  	margin: 000.904977375566%; /*8px/884px*/
+ 	float: left;
  }
 
- /*---------Main Navigation-----------*/
+/*---------Main Navigation-----------*/
 
-nav {
-	font: 1.875em "Birch Std", Helvetica, sans-serif;
-	float: right;
-	margin: 0 auto;
+nav{
+	float: left;
+	position: relative;
+	margin: 0 0 0 9px;
 }
 
-nav ul {
-   	left: 235px;
-    margin: 16px 0 0;
-    position: absolute;
-    top: 35px;
-    z-index: 100;	
+nav ul{
+	margin: 37px 8px 0;
+	float: left;
+	height: 50px;
+	width: 627px;
 }
 
 nav li {
+	display: block;
 	float: left;
-
-    position: relative;
-    list-style-type: none;
+	height: 52px;
+	padding: 12px 0 0;
+	overflow: hidden;
+	position: relative;
+	z-index: 99;	
 }
 
 nav li a {
-    text-decoration: none;
-    color: #57612c;
-    display: block;
-    height: 35px;
-    padding: /*10px 14px 0*/ 
+	font: 2.125em "Birch Std", Helvetica, sans-serif;
+	text-decoration: none;
+	padding: 8px;
+	
 }
 
 nav li a:link {
-	color: #9ca974;
+	color: #fff;
 }
 
 nav li a:visited {
-	color: #eee728;
+	color: #e089be;
 }
 
 nav li a:hover {
-	color: #e7e5d7;
+	color: #61bfc7;
 	background: #597197; 
 }
 
 nav li a:active {
-	color: #333;
+	color: #fff750;
 }
 /*----------End of Main Navigation-----*/
 
@@ -119,7 +121,7 @@ p {
 /*----------Social Icons----------*/
 #social_icons {
 	float: right;
-	
+	margin: 9px 8px 0 0;
 }
 /*----------End of Social Icons----------*/
 
@@ -439,3 +441,21 @@ footer p {
 	color: #9ca974;
 }
 /*----------End of Footer----------*/
+
+
+/* =Media Queries
+======================================================= */
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media screen and (min-width: 768px) and (max-width: 969px) {
+
+		
+header h1 {
+	
+	background-color: #d24087;
+}	
+#cta_image {
+	background-image: none;
+}		
+}
+	
