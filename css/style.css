@@ -52,7 +52,7 @@ cream             e7e5d7
  }
 
  header img {
- 	margin: 000.904977375566%; /*8px/884px*/
+ 	margin: 000.833333333333%; /*8px/960px*/
  	float: left;
  }
 
@@ -61,11 +61,11 @@ cream             e7e5d7
 nav{
 	float: left;
 	position: relative;
-	margin: 0 0 0 9px;
+	margin: 0 0 0 000.9375%; /*0 0 0 9px/960px*/
 }
 
 nav ul{
-	margin: 37px 8px 0;
+	margin: 003.854166666667% 000.833333333333% 0; /*37px 8px 0/960px*/
 	float: left;
 	height: 50px;
 	width: 627px;
@@ -279,6 +279,7 @@ th {
 }
 
 #contact_form {
+	width: 350px;
 	margin: 8px 0 0 9px;
 	float: left;
 }
@@ -449,13 +450,151 @@ footer p {
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media screen and (min-width: 768px) and (max-width: 969px) {
 
+#wrapper {
+	background-color: #fff; 
+}
 		
 header h1 {
-	
-	background-color: #d24087;
-}	
-#cta_image {
 	background-image: none;
-}		
+	background-color: #d24087;
+}
+
+form {
+	background-image: none;
+}	
+		
 }
 	
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+#wrapper {
+	background-color: #fff;	
+}
+
+nav ul {
+	width: 100%;
+}
+		
+header h1 {
+	background-image: none;
+	background-color: #d24087;
+	font-size: 2.375em; /*38px/16px*/
+}
+		
+h2{
+	font-size: 1.5em; /*24px/16px*/
+	padding: 005.06329113924% 001.26582278481% 001.26582278481% 001.26582278481%/*40px 10px 10px; 10px/790px*/
+}
+
+p {
+	padding: 001.26582278481%; /*10px/790px*/
+}
+		
+article img {
+	display: none;
+}
+
+#personal_note {
+	-moz-column-count: 1;
+}
+
+form {
+	background-image: none;
+}	
+
+form {
+	background-image: none;
+}
+
+label {
+	padding: 003.79746835443% 0 0 003.164556962025%; /*30px 0 0 25px/790px*/
+}	
+
+input {
+	width: 50%; 
+	padding: 10px 0 10px 2px;
+	margin: 5px 0 0 15px;
+}
+
+textarea {
+	width: 95%;
+	margin: 5px 0 5px 7px;
+
+}
+
+select {
+	padding: 000.632911392405% 0 000.632911392405% 001.012658227848%; /*5px 0 5px 8px/790px*/
+	margin: 000.520833333333% 0 0 002.083333333333%;/*5px 0 0 10px/960px*/
+}
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+		
+#wrapper {
+	background-color: #fff;
+}
+	
+nav ul {
+	width: 100%;
+}		
+
+
+header h1 {
+	font-size: 1.875em; /*30px/16px*/
+}
+
+h2 {
+	font-size: 1.5em; /*24px/16px*/
+	padding: 005.06329113924% 001.26582278481% 001.26582278481% 001.26582278481%/*40px 10px 10px; 10px/790px*/
+}
+
+p {
+	padding: 001.26582278481%; /*10px/790px*/
+}
+		
+article img {
+	display: none;
+}
+	
+#personal_note {
+	-moz-column-count: 1;
+}
+
+ol {
+	font-size: 0.94em;
+	margin: 001.25% 002.604166666667% 001.041666666667% 0; /*12px 25px 10px 0/960px*/
+}
+		
+aside {
+	display: none;
+}	
+
+form {
+	background-image: none;
+}
+
+label {
+	padding: 003.79746835443% 0 0 003.164556962025%; /*30px 0 0 25px/790px*/
+}	
+
+input {
+	width: 50%; 
+	padding: 10px 0 10px 2px;
+	margin: 5px 0 0 15px;
+}
+
+textarea {
+	width: 95%;
+	margin: 5px 0 5px 7px;
+
+}
+
+select {
+	padding: 000.632911392405% 0 000.632911392405% 001.012658227848%; /*5px 0 5px 8px/790px*/
+	margin: 000.520833333333% 0 0 002.083333333333%;/*5px 0 0 10px/960px*/
+}
+
+}
