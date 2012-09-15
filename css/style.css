@@ -67,18 +67,14 @@ nav{
 nav ul{
 	margin: 003.854166666667% 000.833333333333% 0; /*37px 8px 0/960px*/
 	float: left;
-	height: 50px;
-	width: 627px;
 }
 
 nav li {
 	display: block;
 	float: left;
-	height: 52px;
-	padding: 12px 0 0;
+	padding-top: 12px;
 	overflow: hidden;
-	position: relative;
-	z-index: 99;	
+	position: relative;	
 }
 
 nav li a {
@@ -108,7 +104,7 @@ nav li a:active {
 
 h2 { 
 	font: 1.875em "Birch Std", Helvetica, sans-serif;
-	padding: 25px 0 0 10px;
+	padding: 25px 0 0 002.37556561086%;/*25px 0 0 21px/884px*/
 	color: #597197;
 }
 
@@ -126,8 +122,8 @@ p {
 /*----------End of Social Icons----------*/
 
 /*----------CTA----------*/
-#cta_image {
-	margin: 15px;
+.cta_image {
+	margin: 14px 0 16px 14px;
 }
 
 /*----------End of CTA----------*/
@@ -262,10 +258,10 @@ th {
 
 /*----------Contact Us----------*/
 
-.sidebar, #contact_form, #contact_images {
-	width: 854px;
+#cream_gradient_background {
+	width: 860px;
 	margin: 0 auto;
-
+	overflow: hidden;
 	background: rgb(159,155,140);
 	background: -moz-linear-gradient(top,  rgb(159,155,140) 1%, rgb(231,229,217) 9%, rgb(231,229,217) 94%, rgb(159,155,140) 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgb(159,155,140)), color-stop(9%,rgb(231,229,217)), color-stop(94%,rgb(231,229,217)), color-stop(100%,rgb(159,155,140)));
@@ -276,28 +272,48 @@ th {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9f9b8c', endColorstr='#9f9b8c',GradientType=0 );
 	id:DXImageTransform.Microsoft.gradient( startColorstr='#9f9b8c', endColorstr='#9f9b8c',GradientType=0 ); /* IE6-9 */
 }
-}
+
 
 #contact_form {
 	width: 350px;
 	margin: 8px 0 0 9px;
 	float: left;
+	clear: left;
+}
+
+#contact_form form {
+	margin: 10px 0 0 9px;
 }
 
 #contact_form h2 {
 	clear: both;
-	margin: 8px 0 0 9px;
+	margin: 15px 0 0 9px;
 
+}
+
+#contact_form label {
+	margin: 32px 0 0 2px;
+}
+
+#contact_form input {
+	margin: 16px 0 0 12px;
+}
+
+#contact_form select {
+	margin: 18px 0 0 12px ;
+}
+
+#contact_form textarea {
+	margin: 25px 0 0 12px;
 }
 
 #contact_form button {
 	float: none;
-	margin: 34px 0 0 333px;
+	margin: 34px 0 0 345px;
 }
 
-
 #contact_images {
-	margin: 24px 0 0 40px;
+	margin: 0 0 0 10px;
 	font: 0.75em Georgia, Arial, sans-serif;
 	padding: 0;
 }
@@ -312,7 +328,7 @@ th {
 
 .interem_pastor {
 	float: left;
-	margin: 0 33px;
+	margin: 0 5px 0 43px;
 }
 
 .interem_pastor img {
@@ -321,15 +337,20 @@ th {
 
 .music_director {
 	float: left;
+	margin: 0 0 0 17px;
+}
+
+.music_director p {
+	padding: 9px 0 0 0;
 }
 
 .music_director img {
-	margin: 35px 0 0 12px;
+	margin: 35px -7px 0 0;
 }
 
 .administrative_secretary {
 	float: left;
-	margin: 0 0 0 32px;
+	margin: 0 0 0 43px;
 }
 
 .administrative_secretary img {
@@ -338,15 +359,19 @@ th {
 
 .sidebar {
 	float: right; 
-	width: 300px;
+	width: 252px;
 	background: #384861;
-	margin: 38px 0 0;
+	margin: 86px 30px 0 0;
 }	
 
 
 .sidebar h2 {	
+	width: 246px;
+	height: 25px;
 	float: left;
-	margin: 0 0 0 24px;	
+	margin: 11px 0 0 0px;
+	line-height: 12px;
+	text-align: center;	
 	background: rgb(156,169,116);
 	background: -moz-linear-gradient(top,  rgba(156,169,116,1) 0%, rgba(202,206,209,1) 0%, rgba(156,169,116,1) 7%, rgba(156,169,116,1) 95%, rgba(156,169,116,1) 96%, rgba(202,206,209,1) 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(156,169,116,1)), color-stop(0%,rgba(202,206,209,1)), color-stop(7%,rgba(156,169,116,1)), color-stop(95%,rgba(156,169,116,1)), color-stop(96%,rgba(156,169,116,1)), color-stop(100%,rgba(202,206,209,1)));
@@ -354,18 +379,14 @@ th {
 	background: -o-linear-gradient(top,  rgba(156,169,116,1) 0%,rgba(202,206,209,1) 0%,rgba(156,169,116,1) 7%,rgba(156,169,116,1) 95%,rgba(156,169,116,1) 96%,rgba(202,206,209,1) 100%);
 	background: -ms-linear-gradient(top,  rgba(156,169,116,1) 0%,rgba(202,206,209,1) 0%,rgba(156,169,116,1) 7%,rgba(156,169,116,1) 95%,rgba(156,169,116,1) 96%,rgba(202,206,209,1) 100%);
 	background: linear-gradient(to bottom,  rgba(156,169,116,1) 0%,rgba(202,206,209,1) 0%,rgba(156,169,116,1) 7%,rgba(156,169,116,1) 95%,rgba(156,169,116,1) 96%,rgba(202,206,209,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9ca974', endColorstr='#caced1',GradientType=0 );
-	height: 65px;
-	width:160px;
-	-moz-border-radius: 23px;
-	border-radius: 23px;
-	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9ca974', endColorstr='#caced1',GradientType=0 );	
 }
 
 .sidebar p {
 	float: left;
+	line-height: 1.85;
 	color: #fff;
-	margin: 0 0 0 23px;
+	margin: 12px 0 0 13px;
 
 }
 /*----------End of Contact Us----------*/
@@ -459,17 +480,20 @@ header h1 {
 	background-color: #d24087;
 }
 
-form {
-	background-image: none;
+.cta_image {
+	display: none;
+}
+
+article {
+	width
 }	
-		
 }
 	
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
 #wrapper {
-	background-color: #fff;	
+	background-color: #333;	
 }
 
 nav ul {
@@ -534,7 +558,7 @@ select {
 @media only screen and (max-width: 479px) {
 		
 #wrapper {
-	background-color: #fff;
+	background-color: #999;
 }
 	
 nav ul {
