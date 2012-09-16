@@ -255,7 +255,6 @@ th {
 }
 /*---------End of News Events---------*/
 
-
 /*----------Contact Us----------*/
 
 .cream_gradient_background {
@@ -275,12 +274,18 @@ th {
 }
 
 
+#contact_images {
+	margin: 0 0 0 2px;
+	font: 0.75em Georgia, Arial, sans-serif;
+	padding: 0;
+}
+
 .church_office {
 	float: left;
 }
 
 .church_office img {
-	margin: 35px 0 0 35px;
+	margin: 35px 0 0 35px; /*35px 0 0 35px/960px/*/
 }
 
 .church_office p {
@@ -289,7 +294,7 @@ th {
 
 .interem_pastor {
 	float: left;
-	margin: 0 5px 0 43px;
+	margin: 0 5px 0 38px;
 }
 
 .interem_pastor img {
@@ -297,7 +302,7 @@ th {
 }
 
 .interem_pastor p {
-	margin: 0 0 0 10px;
+	margin: 0 0 0 7px;
 }
 
 .music_director {
@@ -364,17 +369,10 @@ th {
 	margin: 34px 0 0 345px;
 }
 
-#contact_images {
-	margin: 0 0 0 10px;
-	font: 0.75em Georgia, Arial, sans-serif;
-	padding: 0;
-}
-
-
 .sidebar {
 	float: right; 
 	width: 252px;
-	background: #333;
+	background: #282119;
 	margin: 86px 30px 0 0;
 }	
 
@@ -506,7 +504,7 @@ article {
 	width
 }	
 }
-	
+
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
@@ -522,6 +520,10 @@ header h1 {
 	background-image: none;
 	background-color: #d24087;
 	font-size: 2.375em; /*38px/16px*/
+}
+
+.cta_image {
+	display: none;
 }
 		
 h2{
@@ -571,6 +573,10 @@ nav ul {
 
 header h1 {
 	font-size: 1.875em; /*30px/16px*/
+}
+
+.cta_image {
+	display: none;
 }
 
 h2 {
