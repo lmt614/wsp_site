@@ -78,7 +78,7 @@ nav li {
 }
 
 nav li a {
-	font: 2.125em "Birch Std", Helvetica, sans-serif;
+	font: 2em "Birch Std", Helvetica, sans-serif;
 	text-decoration: none;
 	padding: 8px;
 	
@@ -275,60 +275,76 @@ th {
 
 
 #contact_images {
-	margin: 0 0 0 2px;
+	float: left;
+	margin: 28px 0 0 58px;
 	font: 0.75em Georgia, Arial, sans-serif;
 	padding: 0;
+	width: 810px;
 }
 
 .church_office {
 	float: left;
+	margin: 0px 36px 0 0;
 }
 
 .church_office img {
-	margin: 35px 0 0 35; /*35px 0 0 35px/960px/*/
+	clear: both;
 }
 
 .church_office p {
-	margin: 0 0 0 30px;
+	padding: 12px 0 0 0; 
 }
 
 .interem_pastor {
 	float: left;
-	margin: 0 5px 0 38px;
+	margin: 0 40px 0 0;
 }
 
 .interem_pastor img {
-	margin: 35px 0 0 12px;
+	clear: both;
 }
 
 .interem_pastor p {
-	margin: 0 0 0 7px;
+	padding: 12px 0 0 0;
 }
 
 .music_director {
 	float: left;
-	margin: 0 0 0 17px;
-}
-
-.music_director p {
-	padding: 9px 0 0 0;
+	margin: 0 40px 0 0;
 }
 
 .music_director img {
-	margin: 35px -7px 0 0;
+	clear: both;
+}
+
+.music_director p {
+	padding: 12px 0 0 0;
+}
+
+.music_director img {
+	margin: 0;
 }
 
 .administrative_secretary {
 	float: left;
-	margin: 0 0 0 43px;
 }
 
 .administrative_secretary img {
-	margin: 35px 0 0 10px;
+	clear: both;
 }
 
 .administrative_secretary p {
-	margin: 0 0 0 6px;
+	padding: 12px 0 0 0;
+}
+
+figcaption {
+	font: 1em Georgia, Arial, sans-serif;
+	color: #fff;
+	background-color: #57612c; 
+	opacity: 0.72; 
+	height: 22px;
+	margin: -3px 0 0 0px;
+	padding: 7px 0 0 5px;
 }
 
 #contact_form {
