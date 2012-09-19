@@ -282,6 +282,16 @@ th {
 	width: 810px;
 }
 
+#contact_images div {
+	float: left;
+}
+
+#contact_images p {
+	float: left;
+	clear: both;
+	padding: 12px 0 0 0;
+}
+
 .church_office {
 	float: left;
 	margin: 0px 36px 0 0;
