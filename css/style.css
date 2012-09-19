@@ -209,6 +209,22 @@ article {
 }
 /*----------End of Bottom Ads----------*/
 
+.cream_gradient_background {
+	width: 097.285067873303%;/*860px/884px*/
+	margin: 25px auto;
+	padding-bottom: 45px;
+	overflow: hidden;
+	background: rgb(159,155,140);
+	background: -moz-linear-gradient(top,  rgb(159,155,140) 1%, rgb(231,229,217) 9%, rgb(231,229,217) 94%, rgb(159,155,140) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgb(159,155,140)), color-stop(9%,rgb(231,229,217)), color-stop(94%,rgb(231,229,217)), color-stop(100%,rgb(159,155,140)));
+	background: -webkit-linear-gradient(top,  rgb(159,155,140) 1%,rgb(231,229,217) 9%,rgb(231,229,217) 94%,rgb(159,155,140) 100%);
+	background: -o-linear-gradient(top,  rgb(159,155,140) 1%,rgb(231,229,217) 9%,rgb(231,229,217) 94%,rgb(159,155,140) 100%);
+	background: -ms-linear-gradient(top,  rgb(159,155,140) 1%,rgb(231,229,217) 9%,rgb(231,229,217) 94%,rgb(159,155,140) 100%);
+	background: linear-gradient(to bottom,  rgb(159,155,140) 1%,rgb(231,229,217) 9%,rgb(231,229,217) 94%,rgb(159,155,140) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9f9b8c', endColorstr='#9f9b8c',GradientType=0 );
+	id:DXImageTransform.Microsoft.gradient( startColorstr='#9f9b8c', endColorstr='#9f9b8c',GradientType=0 ); /* IE6-9 */
+}
+
 /*---------News Events----------*/
 
 #news {
@@ -255,35 +271,19 @@ th {
 }
 /*---------End of News Events---------*/
 
-/*----------Contact Us----------*/
-
-.cream_gradient_background {
-	width: 097.285067873303%;/*860px/884px*/
-	margin: 25px auto;
-	padding-bottom: 45px;
-	overflow: hidden;
-	background: rgb(159,155,140);
-	background: -moz-linear-gradient(top,  rgb(159,155,140) 1%, rgb(231,229,217) 9%, rgb(231,229,217) 94%, rgb(159,155,140) 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgb(159,155,140)), color-stop(9%,rgb(231,229,217)), color-stop(94%,rgb(231,229,217)), color-stop(100%,rgb(159,155,140)));
-	background: -webkit-linear-gradient(top,  rgb(159,155,140) 1%,rgb(231,229,217) 9%,rgb(231,229,217) 94%,rgb(159,155,140) 100%);
-	background: -o-linear-gradient(top,  rgb(159,155,140) 1%,rgb(231,229,217) 9%,rgb(231,229,217) 94%,rgb(159,155,140) 100%);
-	background: -ms-linear-gradient(top,  rgb(159,155,140) 1%,rgb(231,229,217) 9%,rgb(231,229,217) 94%,rgb(159,155,140) 100%);
-	background: linear-gradient(to bottom,  rgb(159,155,140) 1%,rgb(231,229,217) 9%,rgb(231,229,217) 94%,rgb(159,155,140) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9f9b8c', endColorstr='#9f9b8c',GradientType=0 );
-	id:DXImageTransform.Microsoft.gradient( startColorstr='#9f9b8c', endColorstr='#9f9b8c',GradientType=0 ); /* IE6-9 */
-}
-
+/*----------Contact Images----------*/
 
 #contact_images {
 	float: left;
-	margin: 28px 0 0 58px;
+	margin: 28px 0 0 007.558139534884%;/*28px 0 0 65px/860px*/
 	font: 0.75em Georgia, Arial, sans-serif;
 	padding: 0;
-	width: 810px;
+	width: 094.186046511628%;/*810px/860px*/
 }
 
 #contact_images div {
 	float: left;
+	padding: 0 003.086419753086% 0 0;/*0 25px 0 0/810px*/
 }
 
 #contact_images p {
@@ -294,7 +294,7 @@ th {
 
 .church_office {
 	float: left;
-	margin: 0px 36px 0 0;
+	margin: 0 004.186046511628% 0 0;/*0px 36px 0 0*/
 }
 
 .church_office img {
@@ -307,7 +307,7 @@ th {
 
 .interem_pastor {
 	float: left;
-	margin: 0 40px 0 0;
+	margin: 0 004.651162790698% 0 0;/*0 40px 0 0/860px*/
 }
 
 .interem_pastor img {
@@ -320,7 +320,7 @@ th {
 
 .music_director {
 	float: left;
-	margin: 0 40px 0 0;
+	margin: 0 004.651162790698% 0 0;/*0 40px 0 0/860px*/
 }
 
 .music_director img {
@@ -354,57 +354,60 @@ figcaption {
 	opacity: 0.72; 
 	height: 22px;
 	margin: -3px 0 0 0px;
-	padding: 7px 0 0 5px;
+	padding: 7px 0 0 003.225806451613%;/*7px 0 0 5px/155px*/
 }
+/*----------End of Contact Images----------*/
+
+/*----------Contact Form----------*/
 
 #contact_form {
-	width: 350px;
-	margin: 8px 0 0 9px;
+	width: 040.697674418605%;/*350px/860px*/
+	margin: 8px 0 0 001.046511627907%;/*8px 0 0 9px/860px*/
 	float: left;
 	clear: left;
 }
 
 #contact_form form {
-	margin: 10px 0 0 9px;
+	margin: 10px 0 0 001.162790697674%; /*10px 0 0 9px/860*/
 }
 
 #contact_form h2 {
 	clear: both;
-	margin: 48px 0 -22px 9px;
+	margin: 48px 0 -22px 002.571428571429%; /*48px 0 -22px 9px/860*/
 
 }
 
 #contact_form label {
-	margin: 32px 0 0 2px;
+	margin: 32px 0 0 000.232558139535%; /*32px 0 0 2px/860px*/
 }
 
 #contact_form input {
-	margin: 16px 0 0 12px;
+	margin: 16px 0 0 003.428571428571%; /*16px 0 0 12px/350px*/
 }
 
 #contact_form select {
-	margin: 18px 0 0 12px ;
+	margin: 18px 0 0 003.428571428571%; /*18px 0 0 12px/350px*/
 }
 
 #contact_form textarea {
-	margin: 25px 0 0 12px;
+	margin: 25px 0 0 003.428571428571%; /*25px 0 0 12px/350px*/
 }
 
 #contact_form button {
 	float: none;
-	margin: 34px 0 0 345px;
+	margin: 34px 0 0 079.428571428571%; /*34px 0 0 278px/350px*/
 }
 
 .sidebar {
 	float: right; 
-	width: 252px;
+	width: 029.302325581395%;/*252px/860px*/
 	background: #282119;
-	margin: 86px 30px 0 0;
+	margin: 86px 003.488372093023% 0 0; /*86px 30px 0 0/860*/
 }	
 
 
 .sidebar h2 {	
-	width: 246px;
+	width: 097.619047619048%; /*246px/252px*/
 	height: 32px;
 	float: left;
 	margin: 27px 0 0 0px;
@@ -424,7 +427,7 @@ figcaption {
 	float: left;
 	line-height: 1.85;
 	color: #fff;
-	margin: 17px 0 0 11px;
+	margin: 17px 0 0 004.365079365079%; /*17px 0 0 11px/252px*/
 
 }
 /*----------End of Contact Us----------*/
@@ -433,13 +436,13 @@ figcaption {
 /*----------Submit Button----------*/
 .button {
 	float: right;
-	margin: 20px 22px;
+	margin: 20px 007.051282051282%;/*20px 22px/312px*/
 	display: inline-block;
 	outline: none;
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
-	font: 14px/100% Arial, Helvetica, sans-serif;
+	font: 0.875em/100% Arial, Helvetica, sans-serif;
 	padding: .5em 2em .55em;
 	text-shadow: 0 1px 1px rgba(0,0,0,.3);
 	-webkit-border-radius: .5em; 
