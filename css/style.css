@@ -199,13 +199,21 @@ End of Social Icons----------*/
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dde0e5', endColorstr='#caced1',GradientType=0 );
 }	
 
-#bottom_ads ul {
-	list-style-type: none;
-}
 
-#bottom_ads li {
+
+#bottom_ads figure {
 	float: left;
 	margin: 32px 001.354166666667% 0 001.875%;/*32px 13px 0 18px/960px*/
+}
+
+figcaption {
+	font: 1.5em "Birch Std", Arial, sans-serif;
+	color: #fff;
+	background-color: #57612c; 
+	opacity: 0.72; 
+	height: 27px;
+	margin: -45px 0 0 0px;
+	padding: 11px 0 0 003.225806451613%;/*7px 0 0 5px/155px*/
 }
 /*----------End of Bottom Ads----------*/
 
@@ -347,7 +355,7 @@ th {
 	padding: 12px 0 0 0;
 }
 
-figcaption {
+.fig_contact_img {
 	font: 1em Georgia, Arial, sans-serif;
 	color: #fff;
 	background-color: #57612c; 
@@ -534,7 +542,7 @@ nav li {
 .welcome_message {
 	float: left;
 	clear: left;
-	width: 392px;
+	width: 057.377049180328%; /*490px/854px*/
 	margin: 20px 0 0 16px;
 }
 
