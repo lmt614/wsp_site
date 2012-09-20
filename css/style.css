@@ -71,7 +71,7 @@ nav ul{
 nav li {
 	float: left;
 	padding: 0 002.036199095023% 0 0; /*0 18px 0 0/884px*/	
-		font: 2em "Birch Std", Helvetica, sans-serif;
+	font: 2em "Birch Std", Helvetica, sans-serif;
 
 }
 
@@ -526,6 +526,11 @@ header h1 {
 	background-color: #d24087;
 }
 
+nav li {	
+	font: 1.8em "Birch Std", Helvetica, sans-serif;
+
+}
+
 #article {
 	float: left;
 	margin: 9px 0 28px 15px;
@@ -553,14 +558,16 @@ article {
 	background-color: #333;	
 }
 
-nav ul {
-	width: 100%;
-}
 		
 header h1 {
 	background-image: none;
 	background-color: #d24087;
 	font-size: 2.375em; /*38px/16px*/
+}
+
+nav li {	
+	font: 1.8em "Birch Std", Helvetica, sans-serif;
+
 }
 
 .cta_image {
@@ -591,9 +598,9 @@ p {
 	background-color: #999;
 }
 	
-nav ul {
-	width: 100%;
-}		
+nav li {	
+	font: 1.8em "Birch Std", Helvetica, sans-serif;
+}	
 
 
 header h1 {
