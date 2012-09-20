@@ -531,23 +531,25 @@ nav li {
 
 }
 
-#article {
+.welcome_message {
 	float: left;
-	margin: 9px 0 28px 15px;
+	clear: left;
+	width: 392px;
+	margin: 20px 0 0 16px;
 }
 
 #newsletter_form {
 	float: right;
 	clear: right;
-	margin: 9px 14px 28px 0;
+	margin: 20px 14px 28px 0;
 }
 
 .cta_image {
 	display: none;
 }
 
-article {
-	width
+p {
+	font-size: 0.75em;
 }	
 }
 
@@ -573,13 +575,7 @@ nav li {
 .cta_image {
 	display: none;
 }
-
-#article {
-	float: left;
-}
-
-
-		
+	
 h2{
 	font-size: 1.5em; /*24px/16px*/
 	padding: 005.06329113924% 001.26582278481% 001.26582278481% 001.26582278481%/*40px 10px 10px; 10px/790px*/
@@ -609,6 +605,11 @@ header h1 {
 
 .cta_image {
 	display: none;
+}
+
+.welcome_message {
+	width: 100%;
+	margin: 20px auto;
 }
 
 h2 {
