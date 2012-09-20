@@ -672,7 +672,7 @@ nav {
 	clear: both;
 	display: block;
 	float: left;
-	margin: 0 0 1.5em;
+	margin: 68px 0 1.5em;
 	padding: 0;
 	position: relative;
 	width: 100%;
@@ -690,17 +690,17 @@ nav ul li {
 	line-height: 1.5em;
 	margin: 0;
 	padding: 0;
-	
+	text-align: center;
 	width: 100%;
 }
 
-nav ul li a:active, nav ul li.home a.selected, nav ul li.work a.selected, nav ul li.about a.selected, nav ul li.contact a.selected {
+ul {
     background: none repeat scroll 0 0 rgba(255, 255, 255, 0.25);
-    color: #fff;
+    color: #FFFFFF;
     text-decoration: none;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-    text-align: center;
 }
+
 
 nav li a {
     display: block;
@@ -709,11 +709,7 @@ nav li a {
     text-decoration: none;
 	overflow: hidden;
 	text-indent: -444444px;
-}
-
-
-nav ul li a, nav ul li a:link, nav ul li a:visited {
-    -moz-transition: background-color 0.4s ease-in-out 0s;
+	clear: left;
 }
 
 
