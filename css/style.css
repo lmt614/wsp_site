@@ -708,7 +708,7 @@ nav li a {
     padding: 0.666667em 0;
     text-decoration: none;
 	overflow: hidden;
-	text-indent: -444444px;
+	text-indent: 0;
 	clear: left;
 }
 
