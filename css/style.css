@@ -78,8 +78,7 @@ nav li {
 nav li a {
 	text-decoration: none;
 	overflow: hidden;
-	text-indent: -444444px;
-	
+	text-indent: 0;	
 }
 
 nav li a:link {
@@ -87,18 +86,40 @@ nav li a:link {
 }
 
 nav li a:visited {
-	color: #9ca974;
+	color: #c9af83;
 }
 
 nav li a:hover {
-	color: #57612c;
-	background: #597197; 
+	color: #433c65;
+	background: #597197;
+	padding: 10px; 
 }
 
 nav li a:active {
 	color: #fff750;
 }
+
+body.home .home a, body.news_events .news_events a, body.outreach_ministry .outreach_ministry a, body.sermons .sermons a, body.about_us .about_us a, body.contact_us .contact_us a{
+	padding: 10px;
+	background: #597197;
+	color: #433c65;
+	text-decoration: none;
+}
 /*----------End of Main Navigation-----*/
+
+/*----------Outreach Ministry----------*/
+#outreach_content p {
+	line-height: 1.7;
+}
+/*----------End of Outreach Ministry----------*/
+
+/*----------Semons----------*/
+
+#sermon_intro p {
+	line-height: 1.6;
+	padding-bottom: 25px;
+}
+/*----------End of Sermons----------*/
 
 h2 { 
 	font: 1.875em "Birch Std", Helvetica, sans-serif;
@@ -111,13 +132,6 @@ p {
 	padding: 12px 002.37556561086%;/*21px/854px*/
 	color: #232733;
 }
-
-/*----------Social Icons----------
-#social_icons {
-	float: right;
-	margin: 9px 8px 0 0;
-}
-End of Social Icons----------*/
 
 /*----------CTA----------*/
 
@@ -146,6 +160,7 @@ End of Social Icons----------*/
 /*----------End of Welcome Section----------*/
 
 /*----------Sign Up for Newsletters Section---------*/
+
 #newsletter_form {
 	width: 034.894613583138%;/*298px/854*/
 	height: 350px;
@@ -533,7 +548,7 @@ footer p {
 @media screen and (min-width: 768px) and (max-width: 969px) {
 
 #wrapper {
-	background-color: #fff; 
+	background-color: #9ca974; 
 }
 		
 header h1 {
@@ -543,7 +558,6 @@ header h1 {
 
 nav li {	
 	font: 1.8em "Birch Std", Helvetica, sans-serif;
-
 }
 
 .welcome_message {
@@ -619,7 +633,7 @@ p {
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
 body {
-	background: #333; /*#9ca974*/
+	background: #9ca974;
 	background-image: none;
 }
 
@@ -674,7 +688,6 @@ nav ul li {
 
 ul {
     background: none repeat scroll 0 0 rgba(255, 255, 255, 0.25);
-    color: #fff;
     text-decoration: none;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
@@ -699,6 +712,7 @@ nav li a {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dde0e5', endColorstr='#384861',GradientType=0 );
 
 }
+
 
 #contact_images {
 	margin: 40px 0 0 125px;
@@ -817,7 +831,7 @@ select {
 @media only screen and (max-width: 479px) {
 		
 body {
-	background: #999; /*#9ca974*/
+	background: #9ca974;
 	background-image: none;
 }
 
@@ -871,7 +885,6 @@ nav ul li {
 
 ul {
     background: none repeat scroll 0 0 rgba(255, 255, 255, 0.25);
-    color: #fff;
     text-decoration: none;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
